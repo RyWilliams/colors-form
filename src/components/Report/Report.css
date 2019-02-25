@@ -1,0 +1,28 @@
+.report {
+  display: grid;
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin: 8rem auto 0 auto;
+  max-width: 180px;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report {
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+}
+
+.color {
+  text-align: right;
+  grid-column: 1 / 2;
+}
+
+.count {
+  grid-column: 2 / 3;
+}
